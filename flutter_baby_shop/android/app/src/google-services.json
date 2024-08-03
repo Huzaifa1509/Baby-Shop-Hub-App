@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "61955691971",
+    "project_id": "baby-shop-fad7d",
+    "storage_bucket": "baby-shop-fad7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61955691971:android:a400eb183ae61f56881976",
+        "android_client_info": {
+          "package_name": "com.example.flutter_baby_shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF4z7mPwIhpE_Qu1t7xiBH9c-zdCJb3gQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

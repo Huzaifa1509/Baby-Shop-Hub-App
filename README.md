@@ -50,6 +50,13 @@ Baby Shop Hub is a dedicated, user-friendly mobile application for parents and c
    ```bash
    flutter run
    ```
+### User Credentials:
+Email: huzaifa@gmail.com
+Password: pass123
+
+### Admin Credentials:
+Email: admin@gmail.com
+Password: 123
 
 ### Contributing:
 We welcome contributions! Please fork the repository and submit a pull request for any enhancements, bug fixes, or new features.

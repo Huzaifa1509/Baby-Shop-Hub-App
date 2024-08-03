@@ -1,0 +1,83 @@
+name: shop
+description: FlutterShop is a premium E-commerce UI kit that you can use to build various e-commerce apps using Flutter that works on both Android & iOS. This kit contains 100+ nicely crafted minimal screens that cover everything you need for your shop app.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.10+1
+  form_field_validator: ^1.1.0
+  cached_network_image: ^3.2.0
+  flutter_rating_bar: ^4.0.1
+  flutter_widget_from_html_core: ^0.15.1
+  animations: ^2.0.11
+  url_launcher: ^6.3.0
+  animate_do: ^3.3.4
+  google_fonts: ^6.2.1
+  dotted_border: ^2.1.0
+  provider: ^6.1.2
+  flutter_animated_icons: ^1.0.1
+  syncfusion_flutter_datagrid: ^26.1.35
+  go_router: ^14.2.0
+  dropdown_button2: ^2.3.9
+  textfield_tags: ^3.0.1
+  image_picker: ^1.1.2
+  firebase_core: ^3.2.0
+  firebase_storage: ^12.0.1
+  uuid: ^4.4.0
+  cloud_firestore: ^5.1.0
+  toastification: ^2.0.0
+  firebase_auth: ^5.1.2
+  gestures: ^1.0.0
+  shared_preferences: ^2.2.3
+  file_picker: ^8.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/Illustration/
+    - assets/flags/
+    - assets/logo/
+    - assets/screens/
+    - assets/screens/Forgot_password.png
+    - assets/screens/Forgot password 6.png
+    - assets/screens/Enter verification code.png
+    - assets/screens/Verificaition code.png
+    - assets/screens/Reset password.png
+    - assets/screens/Kids.png
+  fonts:
+    - family: Plus Jakarta
+      fonts:
+        - asset: assets/fonts/plus_jakarta/PlusJakartaDisplay-Regular.otf
+        - asset: assets/fonts/plus_jakarta/PlusJakartaDisplay-Medium.otf
+          weight: 500
+        - asset: assets/fonts/plus_jakarta/PlusJakartaDisplay-Bold.otf
+          weight: 700
+    - family: Grandis Extended
+      fonts:
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Regular.ttf
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Thin.ttf
+          weight: 300
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Black.ttf
+          weight: 900
