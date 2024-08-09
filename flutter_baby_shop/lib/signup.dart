@@ -229,14 +229,14 @@ class _SignUpState extends State<SignUp> {
         nextId = counterData['count'] ?? 1;
       } else {
         await FirebaseFirestore.instance
-            .collection('counters')
+            .collection('Counters')
             .doc('user_count')
             .set({'count': nextId});
       }
 
       // Increment user ID
       await FirebaseFirestore.instance
-          .collection('counters')
+          .collection('Counters')
           .doc('user_count')
           .update({'count': nextId + 1});
 
