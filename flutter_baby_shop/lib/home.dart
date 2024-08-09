@@ -289,6 +289,7 @@ DrawerHeader(
                 );
               },
             ),
+            if(userId != null)
             ListTile(
               leading: Icon(Icons.feedback),
               title: Text('Feedback & Support'),
@@ -296,6 +297,7 @@ DrawerHeader(
                 Navigator.push(context,MaterialPageRoute(builder: (context) => FeedbackFormScreen(userId: userId!,)) );
               },
             ),
+            
             if (userId != null)
               ListTile(
                 leading: Icon(Icons.logout),

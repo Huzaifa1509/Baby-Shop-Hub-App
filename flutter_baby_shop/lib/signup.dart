@@ -219,7 +219,7 @@ class _SignUpState extends State<SignUp> {
 
       // Get the next user ID
       DocumentSnapshot counterDoc = await FirebaseFirestore.instance
-          .collection('counters')
+          .collection('Counters')
           .doc('user_count')
           .get();
 
