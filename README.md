@@ -36,7 +36,7 @@ Baby Shop Hub is a dedicated, user-friendly mobile application for parents and c
 ### Installation and Setup:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/BabyShopHub.git
+   git clone https://github.com/Huzaifa1509/Baby-Shop-Hub-App/
    ```
 2. Navigate to the project directory:
    ```bash
@@ -50,19 +50,9 @@ Baby Shop Hub is a dedicated, user-friendly mobile application for parents and c
    ```bash
    flutter run
    ```
-### User Credentials:
-Email: huzaifa@gmail.com
-Password: pass123
-
-### Admin Credentials:
-Email: admin@gmail.com
-Password: 123
 
 ### Contributing:
 We welcome contributions! Please fork the repository and submit a pull request for any enhancements, bug fixes, or new features.
 
 ### License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### Contact:
-For any inquiries or support, please reach out to us at [huzaifairfan2144@gmail.com].
